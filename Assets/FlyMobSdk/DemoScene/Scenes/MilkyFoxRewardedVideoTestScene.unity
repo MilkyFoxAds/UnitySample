@@ -74,6 +74,7 @@ LightmapSettings:
     m_MixedBakeMode: 1
     m_BakeBackend: 0
     m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
     m_PVRFiltering: 0
@@ -206,7 +207,7 @@ GameObject:
   - component: {fileID: 696677352}
   - component: {fileID: 696677351}
   m_Layer: 0
-  m_Name: FlyMobRewardedVideoMenu
+  m_Name: MilkyFoxRewardedVideoMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55e840356fad49b4beea12d8c0f130e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoneId: 1094152
+  adUnit: video_3403:4203
 --- !u!4 &696677352
 Transform:
   m_ObjectHideFlags: 0

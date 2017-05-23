@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FlyMobSdk/DemoScene/Scenes/FlyMobRewardedVideoTestScene.unity
+- path: Assets/FlyMobSdk/DemoScene/Scenes/MilkyFoxRewardedVideoTestScene.unity
   isLoaded: 1
   isActive: 1
