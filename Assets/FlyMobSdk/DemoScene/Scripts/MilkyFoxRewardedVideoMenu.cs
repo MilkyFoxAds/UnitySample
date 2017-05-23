@@ -67,6 +67,7 @@ public class MilkyFoxRewardedVideoMenu : MonoBehaviour, IMilkyFoxRewardedVideoLi
 		messages.Add ("Start");
 	}
 
+
 	public void MilkyFoxRewardedVideoComplete(){
 		Debug.Log ("Complete");
 		messages.Add ("Complete");
