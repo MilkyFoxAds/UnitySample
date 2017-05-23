@@ -1,0 +1,17 @@
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/UnityEngine.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/UnityEditor.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/obj/Debug/Assembly-CSharp.dll
+/Users/Ivan/Dev/Propeller/FlyMobUnityPlugin/obj/Debug/Assembly-CSharp.dll.mdb
