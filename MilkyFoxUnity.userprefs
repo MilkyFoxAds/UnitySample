@@ -1,14 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/MilkyFoxRewardedVideo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MilkyFoxSdk/DemoScene/Scripts/MilkyFoxRewardedVideoMenu.cs">
     <Files>
-      <File FileName="Assets/FlyMobSdk/DemoScene/Scripts/MilkyFoxInterstitialStaticMenu.cs" Line="74" Column="1" />
-      <File FileName="Assets/FlyMobSdk/DemoScene/Scripts/MilkyFoxInterstitialMenu.cs" Line="13" Column="47" />
-      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/Interstitial/MilkyFoxInterstitialStaticAdapter.cs" Line="7" Column="2" />
-      <File FileName="Assets/Plugins/Android/MilkyFoxSdk/AndroidManifest.xml" Line="30" Column="9" />
-      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/Interstitial/MilkyFoxInterstitial.cs" Line="13" Column="49" />
-      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/Interstitial/Bridge/MilkyFoxInterstitialAndroidBridge.cs" Line="93" Column="3" />
-      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/MilkyFoxRewardedVideo.cs" Line="18" Column="3" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/MilkyFoxRewardedVideo.cs" Line="5" Column="35" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/Bridge/MilkyFoxRewardedVideoBaseBridge.cs" Line="5" Column="71" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/Bridge/IMilkyFoxRewardedVideoBridgeListener.cs" Line="13" Column="42" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/RewardedVideo/IMilkyFoxRewardedVideoListener.cs" Line="6" Column="2" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/Interstitial/MilkyFoxInterstitial.cs" Line="5" Column="34" />
+      <File FileName="Assets/MilkyFoxSdk/DemoScene/Scripts/MilkyFoxInterstitialMenu.cs" Line="4" Column="1" />
+      <File FileName="Assets/Plugins/MilkyFoxSdk/Scripts/Interstitial/MilkyFoxInterstitialStaticAdapter.cs" Line="3" Column="47" />
+      <File FileName="Assets/MilkyFoxSdk/DemoScene/Scripts/MilkyFoxRewardedVideoMenu.cs" Line="78" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

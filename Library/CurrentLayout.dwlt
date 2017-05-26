@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 496
     width: 1022
     height: 795
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 132
+  controlID: 135
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,7 +349,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Plugins/Android/MilkyFoxSdk/libs
+    - Assets/MilkyFoxSdk
+    - Assets/Plugins
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -360,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 201e0000
     m_LastClickedID: 7712
-    m_ExpandedIDs: 000000003e2500004425000066250000682500007625000082250000882500008a25000090250000922500009a2500009c250000a2250000a6250000a8250000aa250000b62500000426000006260000082600000a2600000c2600000e2600001026000012260000
+    m_ExpandedIDs: 000000002a250000302500005c25000080250000822500008a250000e0250000ec250000f825000006260000082600001e260000262600002e2600003e260000422600006c26000092260000942600003c2700003e27000040270000422700004427000046270000482700004a2700004c2700004e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e2500004425000062250000642500006625000068250000762500007a25000082250000882500008a25000090250000922500009a2500009c250000a2250000a6250000a8250000aa250000b62500000426000006260000082600000a2600000c2600000e260000102600001226000098290000
+    m_ExpandedIDs: 000000002a250000302500005c2500008025000082250000e0250000ec25000006260000082600001e260000262600002e2600003e260000422600006c26000092260000942600003c2700003e27000040270000422700004427000046270000482700004a2700004c2700004e270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,9 +505,9 @@ MonoBehaviour:
     height: 621
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 562d0000
+    m_SelectedIDs: 8a250000f8250000
     m_LastClickedID: 0
-    m_ExpandedIDs: 4e51ffff5852ffff3653ffff6456ffff6e57ffff4c58ffff905bffff9a5cffff785dffff4062ffff4a63ffff2464ffff2468fffffe68ffffd869ffff9e6bffff786cffff526dffff8c6fffff6670ffff4071ffffca72ffff148ffffff28fffffcc90ffff1893ffffec93ffffca94ffff2e98ffff0099ffffde99ffffca9cffff9c9dffff7a9effffcca1ffffc0afffff88b0ffff64b1ffff9cb7ffff5eb8ffff38b9ffff96baffffacbbffffd4fbffff00000000
+    m_ExpandedIDs: dafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
