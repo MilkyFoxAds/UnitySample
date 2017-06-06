@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 696677352}
   - component: {fileID: 696677351}
   m_Layer: 0
-  m_Name: MilkyFoxInterstitialStaticMenu
+  m_Name: MilkyFoxInterstitialStaticAdapterMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd942772f481a49e6be140db49ac9a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adUnit: interstitial_3402:4203
+  adUnit: interstitial_3405:4204
 --- !u!4 &696677352
 Transform:
   m_ObjectHideFlags: 0
