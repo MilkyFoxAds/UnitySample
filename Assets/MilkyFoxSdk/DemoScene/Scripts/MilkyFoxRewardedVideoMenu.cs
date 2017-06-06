@@ -5,12 +5,22 @@ public class MilkyFoxRewardedVideoMenu : MonoBehaviour, IMilkyFoxRewardedVideoLi
 	public string adUnit = "video_3403:4203";
 
 	private bool inited = false;
+	private bool needInit = false;
 
 	ArrayList messages = new ArrayList();
 
 	// Use this for initialization
 	void Start(){
 
+	}
+
+	void Update(){
+		if (needInit) {
+			needInit = false;
+			inited = true;
+			MilkyFoxRewardedVideo.Initialize(adUnit);
+			MilkyFoxRewardedVideo.SetListener (this);
+		}
 	}
 
 	void OnGUI() {
@@ -22,11 +32,9 @@ public class MilkyFoxRewardedVideoMenu : MonoBehaviour, IMilkyFoxRewardedVideoLi
 
 		GUI.color = Color.white;
 
-		GUI.enabled = !inited;
+		GUI.enabled = !needInit&&!inited;
 		if (GUI.Button (new Rect (padding, y, Screen.width-2*padding, buttonHeight), "Initialize")) {
-			MilkyFoxRewardedVideo.Initialize(adUnit);
-			MilkyFoxRewardedVideo.SetListener (this);
-			inited = true;
+			needInit = true;
 		}
 
 		y += buttonInterval+buttonHeight;

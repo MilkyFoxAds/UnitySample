@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class MilkyFoxInterstitialMenu : MonoBehaviour, IMilkyFoxInterstitialListener{
-	public string adUnit = "interstitial_3402:4203";
+	public string adUnit = "interstitial_3405:4204";
 
 	private MilkyFoxInterstitial milkyFoxInterstitial;
 	private bool loaded = false;

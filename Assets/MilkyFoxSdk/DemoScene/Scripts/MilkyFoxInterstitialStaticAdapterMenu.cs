@@ -1,15 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MilkyFoxInterstitialStaticMenu : MonoBehaviour, IMilkyFoxInterstitialListener{
-	public string adUnit = "interstitial_3402:4203";
+public class MilkyFoxInterstitialStaticAdapterMenu : MonoBehaviour, IMilkyFoxInterstitialListener{
+	public string adUnit = "interstitial_3405:4204";
+
+	private bool inited = false;
+	private bool needInit = false;
 
 	private bool loaded = false;
 	ArrayList messages = new ArrayList();
 
 	// Use this for initialization
 	void Start(){
-		MilkyFoxInterstitialStaticAdapter.Initialize (adUnit, this);
+		
+	}
+
+	void Update(){
+		if (needInit) {
+			needInit = false;
+			inited = true;
+			MilkyFoxInterstitialStaticAdapter.Initialize(adUnit);
+			MilkyFoxInterstitialStaticAdapter.SetListener (this);
+		}
 	}
 
 	void OnGUI() {
@@ -21,25 +33,23 @@ public class MilkyFoxInterstitialStaticMenu : MonoBehaviour, IMilkyFoxInterstiti
 
 		GUI.color = Color.white;
 
-		if (GUI.Button (new Rect (padding, y, Screen.width-2*padding, buttonHeight), "Load Interstitial")) {
-			MilkyFoxInterstitialStaticAdapter.Load ();
+		GUI.enabled = !needInit&&!inited;
+		if (GUI.Button (new Rect (padding, y, Screen.width-2*padding, buttonHeight), "Initialize")) {
+			needInit = true;
 		}
 
 		y += buttonInterval+buttonHeight;
 
-		GUI.enabled = loaded;
+		GUI.enabled = MilkyFoxInterstitialStaticAdapter.IsLoaded ();
 		if (GUI.Button (new Rect (padding, y, Screen.width-2*padding, buttonHeight), "Show")) {
-			if (MilkyFoxInterstitialStaticAdapter.IsLoaded ()) {
-				MilkyFoxInterstitialStaticAdapter.Show ();
-			}
-			loaded = false;
-
+			MilkyFoxInterstitialStaticAdapter.Show ();
 		}
 		y += buttonInterval+buttonHeight;
 
 		GUI.enabled = true;
 
 		GUI.color = Color.black;
+
 		for (int i = messages.Count-1; i>=0 && i > (messages.Count-10); i--) {
 			GUI.Label (new Rect (padding, y, (Screen.width-2*padding), 20), (string)(messages[i]));
 			y += 20;
