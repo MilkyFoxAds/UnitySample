@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MilkyFoxSdk/DemoScene/Scenes/MilkyFoxInterstitialStaticAdapterTestScene.unity
-    guid: e6c2c71e66b6b4dfca3add78dac50842
+    path: Assets/MilkyFoxSdk/DemoScene/Scenes/MilkyFoxRewardedVideoTestScene.unity
+    guid: 520901b52c7304b619c9595de2de8771
